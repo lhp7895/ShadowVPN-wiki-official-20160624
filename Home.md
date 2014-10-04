@@ -8,7 +8,7 @@ ShadowVPN is a fast, safe VPN based on libsodium.
     * [Tutorial]
     * [中文教程][Chinese Readme]
 - Advanced Usage
-    * [Compared To Shadowsocks and OpenVPN](https://github.com/clowwindy/ShadowVPN/wiki/Compared-To-Shadowsocks-and-OpenVPN)
+    * [Compared to Shadowsocks and OpenVPN](https://github.com/clowwindy/ShadowVPN/wiki/Compared-to-Shadowsocks-and-OpenVPN)
 
 ### Latest Release
 
