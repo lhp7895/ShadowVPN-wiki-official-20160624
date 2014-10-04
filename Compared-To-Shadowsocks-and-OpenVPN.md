@@ -9,3 +9,11 @@ RST Proof         |     N     |        N       |     Y
 Speed             | fast(UDP) |       fast     |    fast
 CPU utilization   |    high   |      medium    |    low
 RAM               |    low    |      medium    |    low
+
+ShadowVPN is inspired by SigmaVPN. It has some improvements over SigmaVPN:
+- Faster encryption
+- User friendly configuration with scripting support
+- Builtin daemon and logging support
+- Lower packet overhead
+- Does not crash easily
+- Easier to build and port
