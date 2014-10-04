@@ -68,6 +68,9 @@ OpenWRT:
     /etc/init.d/shadowvpn start
     /etc/init.d/shadowvpn stop
 
+对于 DNS 污染，可以直接使用 Google DNS 8.8.8.8，或者使用
+[ChinaDNS] 综合国内外解析达到更好的效果。
+
 Wiki
 ----
 
@@ -85,6 +88,7 @@ Bugs and Issues
 * [Mailing list]
 
 [Build Status]:         https://img.shields.io/travis/clowwindy/ShadowVPN/master.svg?style=flat
+[ChinaDNS]:             https://github.com/clowwindy/ChinaDNS-C
 [下载预编译版]:    https://github.com/clowwindy/ShadowVPN/releases
 [Issue Tracker]:        https://github.com/clowwindy/ShadowVPN/issues?state=open
 [Mailing list]:         http://groups.google.com/group/shadowsocks
