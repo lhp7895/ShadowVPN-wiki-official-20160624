@@ -69,7 +69,7 @@ OpenWRT:
     /etc/init.d/shadowvpn stop
 
 对于 DNS 污染，可以直接使用 Google DNS 8.8.8.8，或者使用
-[ChinaDNS] 综合国内外解析得到更好的解析结果。
+[ChinaDNS] 综合使用国内外 DNS 得到更好的解析结果。
 
 Wiki
 ----
