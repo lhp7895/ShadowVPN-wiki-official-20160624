@@ -5,7 +5,7 @@ ShadowVPN
 
 ShadowVPN 是一个基于 libsodium 的高速、安全的 VPN。特别为低端硬件，如 OpenWRT 路由器设计。
 
-ShadowVPN 目前处于 beta 阶段。如果发现 bug，请反馈到 [Issue Tracker]。
+更多详情见[这里][Compare]。
 
 安装
 ----
@@ -88,6 +88,7 @@ Bugs and Issues
 * [Mailing list]
 
 [Build Status]:         https://img.shields.io/travis/clowwindy/ShadowVPN/master.svg?style=flat
+[Compare]:              https://github.com/clowwindy/ShadowVPN/wiki/Compared-to-Shadowsocks-and-OpenVPN
 [ChinaDNS]:             https://github.com/clowwindy/ChinaDNS-C
 [下载预编译版]:    https://github.com/clowwindy/ShadowVPN/releases
 [Issue Tracker]:        https://github.com/clowwindy/ShadowVPN/issues?state=open
