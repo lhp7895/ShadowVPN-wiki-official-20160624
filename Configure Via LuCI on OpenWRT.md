@@ -24,7 +24,7 @@ Add two routes
 
 (Optional) Add chnroutes script.
 
-![image](https://cloud.githubusercontent.com/assets/1073082/4519799/d7e51ce6-4ccb-11e4-8876-34f81e0dd47c.png)
+    vi /etc/hotplug.d/iface/30-chnroutes
 
 chnroutes looks like:
 
@@ -36,4 +36,3 @@ chnroutes looks like:
 Save and apply.
 
     /etc/init.d/network restart
-    /etc/init.d/firewall restart
