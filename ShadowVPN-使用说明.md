@@ -71,6 +71,8 @@ OpenWRT:
 对于 DNS 污染，可以直接使用 Google DNS 8.8.8.8，或者使用
 [ChinaDNS] 综合使用国内外 DNS 得到更好的解析结果。
 
+可选： OpenWRT 用户可以看看 [LuCI Configuration]。
+
 Wiki
 ----
 
@@ -92,6 +94,7 @@ Bugs and Issues
 [ChinaDNS]:             https://github.com/clowwindy/ChinaDNS-C
 [下载预编译版]:    https://github.com/clowwindy/ShadowVPN/releases
 [Issue Tracker]:        https://github.com/clowwindy/ShadowVPN/issues?state=open
+[LuCI Configuration]:   https://github.com/clowwindy/ShadowVPN/wiki/Configure-Via-LuCI-on-OpenWRT
 [Mailing list]:         http://groups.google.com/group/shadowsocks
 [SDK]:                  http://wiki.openwrt.org/doc/howto/obtain.firmware.sdk
 [Travis CI]:            https://travis-ci.org/clowwindy/ShadowVPN
