@@ -1,6 +1,6 @@
 1. I started but the shadowvpn process is missing
 
-   Check /var/log/shadowvpn.log for what happened
+   Check `/var/log/shadowvpn.log` for what happened
 
 2. can not open /dev/net/tun: open: No such file or directory
 
