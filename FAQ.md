@@ -24,3 +24,8 @@
     3. on client `traceroute 8.8.8.8` make sure it goes through 10.7.0.1
     4. on client `ping 8.8.8.8`; on server `sudo tcpdump -i tun0` see if any packet arrives
     5. you can also run `tcpdump host 8.8.8.8` or `tcpdump port 53` etc on the client or server
+    6. on server `netstat -nr` check if your wan is `eth0` if not, update server_*.sh
+    7. on client `netstat -nr` check if your lan is `eth0`. if not, update client_*.sh
+
+Submit an issue if you still can't solve your problem.
+Post what you have tried and provide as much information as possible.
