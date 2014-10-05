@@ -33,6 +33,6 @@ chnroutes looks like:
     route add -net 1.0.2.0 netmask 255.255.254.0 pppoe-wan
     ...
 
-Save and apply.
+Save and apply. Then:
 
     /etc/init.d/network restart
