@@ -22,16 +22,8 @@ Add two routes
 
 ![image](https://cloud.githubusercontent.com/assets/1073082/4519796/b98a5edc-4ccb-11e4-8fbc-ceccd14c35fc.png)
 
-(Optional) Add chnroutes script.
-
-    vi /etc/hotplug.d/iface/30-chnroutes
-
-chnroutes looks like:
-
-    #!/bin/sh
-    route add -net 1.0.1.0 netmask 255.255.255.0 pppoe-wan
-    route add -net 1.0.2.0 netmask 255.255.254.0 pppoe-wan
-    ...
+(Optional) Add [chnroutes script](https://github.com/clowwindy/ShadowVPN/blob/master/samples/chnroutes.sh).
+Save it to `/etc/hotplug.d/iface/30-chnroutes`
 
 Save and apply. Then:
 
