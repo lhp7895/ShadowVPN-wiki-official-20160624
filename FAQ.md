@@ -2,7 +2,7 @@
 
    Check `/var/log/shadowvpn.log` for what happened
 
-2. can not open /dev/net/tun: open: No such file or directory
+2. `can not open /dev/net/tun: open: No such file or directory`
 
    Try
 
@@ -17,7 +17,9 @@
 
         opkg install ip
 
-4. general diagnose steps:
+4. if scripts don't work, you can try to [configure via LuCI](https://github.com/clowwindy/ShadowVPN/wiki/Configure-Via-LuCI-on-OpenWRT)
+
+5. general diagnose steps:
 
     1. on client ping server real IP
     2. on client ping server VPN IP 10.7.0.1
