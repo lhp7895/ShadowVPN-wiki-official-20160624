@@ -1,5 +1,5 @@
 1. Download [chnroutes script](https://github.com/clowwindy/ShadowVPN/blob/master/samples/chnroutes.sh).
-   Replace `pppoe-wan` with your actual WAN interface.
+   You may want to replace `pppoe-wan` with your actual WAN interface. For example, `gw 10.0.1.1`.
 
 2. Save it to `/etc/shadowvpn/chnroutes.sh`. Then
 
