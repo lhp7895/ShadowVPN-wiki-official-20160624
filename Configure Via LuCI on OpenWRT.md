@@ -1,7 +1,5 @@
-If you use pppoe, the default init scripts may be not good.
-When pppoe reconnects, the VPN breaks down. If you want to let
-your router automatically configure IP, routes automatically,
-you should use LuCI to configure all this stuff instead.
+If the default client_up.sh and client_down.sh won't work on your OpenWRT router,
+and you couldn't figure out why, use LuCI to configure instead.
 
 Clear the content of client_up.sh and client_down.sh so that
 they won't change route table any more.
