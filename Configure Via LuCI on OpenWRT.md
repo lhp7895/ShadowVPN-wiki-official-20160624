@@ -34,6 +34,6 @@ they won't change route table any more.
           }
         }
 
-   Save and apply. Then:
+6. Save and apply. Then:
 
         /etc/init.d/network restart
