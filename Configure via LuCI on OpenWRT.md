@@ -2,7 +2,7 @@ If the default `client_up.sh` and `client_down.sh` won't work on your OpenWRT ro
 and you couldn't figure out why, use LuCI to configure instead.
 
 1. Clear the content of `client_up.sh` and `client_down.sh` so that
-they won't change route table any more.
+they won't change route table any more. Remove `/etc/hotplug.d/iface/30-shadowvpn` if it exists.
 
 2. Add a new interface, select tun0.
 
