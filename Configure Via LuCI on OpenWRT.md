@@ -1,7 +1,7 @@
-If the default client_up.sh and client_down.sh won't work on your OpenWRT router,
+If the default `client_up.sh` and `client_down.sh` won't work on your OpenWRT router,
 and you couldn't figure out why, use LuCI to configure instead.
 
-1. Clear the content of client_up.sh and client_down.sh so that
+1. Clear the content of `client_up.sh` and `client_down.sh` so that
 they won't change route table any more.
 
 2. Add a new interface, select tun0.
