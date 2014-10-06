@@ -21,7 +21,18 @@ Add two routes
 ![image](https://cloud.githubusercontent.com/assets/1073082/4519796/b98a5edc-4ccb-11e4-8fbc-ceccd14c35fc.png)
 
 (Optional) Add [chnroutes script](https://github.com/clowwindy/ShadowVPN/blob/master/samples/chnroutes.sh).
-Save it to `/etc/hotplug.d/iface/30-chnroutes`
+Save it to `/etc/shadowvpn/chnroutes.sh`. Then
+
+    chmod +x /etc/shadowvpn/chnroutes.sh
+
+Create `/etc/hotplug.d/iface/35-chnroutes`
+
+    #!/bin/sh
+    [ ifup = "$ACTION" ] && {
+      [ wan = "$INTERFACE" ] && {
+         /etc/shadowvpn/chnroutes.sh
+      }
+    }
 
 Save and apply. Then:
 
