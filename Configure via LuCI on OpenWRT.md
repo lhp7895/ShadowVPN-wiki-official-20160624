@@ -16,7 +16,7 @@ they won't change route table any more. Remove `/etc/hotplug.d/iface/30-shadowvp
 
    ![image](https://cloud.githubusercontent.com/assets/1073082/4519773/fccd4138-4cca-11e4-945b-b1da19e63c92.png)
 
-5. Add two routes
+5. Add two static routes
 
    ![image](https://cloud.githubusercontent.com/assets/1073082/4519796/b98a5edc-4ccb-11e4-8fbc-ceccd14c35fc.png)
 
