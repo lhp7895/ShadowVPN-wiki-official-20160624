@@ -9,6 +9,7 @@ ShadowVPN is a fast, safe VPN based on libsodium.
     * [中文教程][Chinese Readme]
 - Advanced Usage
     * [Configure Via LuCI on OpenWRT](https://github.com/clowwindy/ShadowVPN/wiki/Configure-Via-LuCI-on-OpenWRT)
+    * [Configure Via editing system config files](https://github.com/clowwindy/ShadowVPN/wiki/Setup-ShadowVPN-by-editing-system-configuration-files-in-OpenWRT)
     * [Using chnroutes](https://github.com/clowwindy/ShadowVPN/wiki/Using-chnroutes)
     * [Compared to Shadowsocks and OpenVPN](https://github.com/clowwindy/ShadowVPN/wiki/Compared-to-Shadowsocks-and-OpenVPN)
 
