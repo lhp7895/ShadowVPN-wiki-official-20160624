@@ -40,4 +40,4 @@ If your wan is pppoe, you only need to specify the interface wan in the first ru
 
         /etc/init.d/network restart
 
-To disable ShadowVPN, go to step 4 and change default route 0.0.0.0 from tun to wan.
+To disable ShadowVPN, go to step 5 and change default route 0.0.0.0 from tun to wan.
