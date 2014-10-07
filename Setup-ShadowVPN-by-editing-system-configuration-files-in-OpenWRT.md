@@ -14,10 +14,6 @@ Append this line to interface 'wan':
 
 `option defaultroute '0'`
 
-Append this line to interface 'lan'(Optional):
-
-`option dns '8.8.8.8'`
-
 And append the following lines to the end of this file:
 
 ```
