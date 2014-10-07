@@ -29,5 +29,12 @@
     6. on server `netstat -nr` and `ifconfig` check if your wan is `eth0` if not, update server_*.sh
     7. on client `netstat -nr` and `ifconfig` check if your lan is `eth0`. if not, update client_*.sh
 
+6. How can I manually close/open the VPN tunnel.
+
+     Close: `ifdown tun`    
+     Open: `ifup tun`
+
+
 Submit an issue if you still can't solve your problem.
 Post what you have tried and provide as much information as possible.
+
