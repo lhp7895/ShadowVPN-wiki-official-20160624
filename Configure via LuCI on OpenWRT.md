@@ -20,7 +20,7 @@ they won't change route table any more. Remove `/etc/hotplug.d/iface/30-shadowvp
 
    ![image](https://cloud.githubusercontent.com/assets/1073082/4519796/b98a5edc-4ccb-11e4-8fbc-ceccd14c35fc.png)
 
-If your wan is pppoe, you only need to specify the interface wan in the first rule. If your wan is static IP or DHCP, you also have to specify gateway IP.
+   If your wan is pppoe, you only need to specify the interface wan in the first rule. If your wan is static IP or DHCP, you also have to specify gateway IP.
 
 6. (Optional) Add [chnroutes script](https://github.com/clowwindy/ShadowVPN/blob/master/samples/chnroutes.sh).
    Save it to `/etc/shadowvpn/chnroutes.sh`. Then
