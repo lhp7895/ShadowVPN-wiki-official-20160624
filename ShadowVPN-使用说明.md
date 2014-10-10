@@ -94,7 +94,7 @@ Bugs and Issues
 * [Issue Tracker]
 * [Mailing list]
 
-[Build Status]:         https://img.shields.io/travis/clowwindy/ShadowVPN/master.svg?style=flat
+[Build Status]:         https://travis-ci.org/clowwindy/ShadowVPN.svg?branch=master
 [Compare]:              https://github.com/clowwindy/ShadowVPN/wiki/Compared-to-Shadowsocks-and-OpenVPN
 [ChinaDNS]:             https://github.com/clowwindy/ChinaDNS-C
 [下载预编译版]:    https://github.com/clowwindy/ShadowVPN/releases
