@@ -5,7 +5,9 @@ ShadowVPN
 
 ShadowVPN 是一个基于 libsodium 的高速、安全的 VPN。特别为低端硬件，如 OpenWRT 路由器设计。
 
-更多详情见[这里][Compare],这里是[基本原理简介](https://github.com/clowwindy/ShadowVPN/wiki/ShadowVPN-%E5%8E%9F%E7%90%86%E7%AE%80%E8%A6%81%E8%AF%B4%E6%98%8E)
+更多详情见[这里][Compare]。
+
+[基本原理简介](https://github.com/clowwindy/ShadowVPN/wiki/ShadowVPN-%E5%8E%9F%E7%90%86%E7%AE%80%E8%A6%81%E8%AF%B4%E6%98%8E)。
 
 目前处在完善阶段，仍有[许多需要做的][Issue Tracker]。如果你希望使用稳定的版本，可以过段时间再过来看看。
 
