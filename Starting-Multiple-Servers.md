@@ -1,7 +1,7 @@
 For each server, change the following configuration to be different from each other:
 
-server1
--------
+Server 1
+--------
 
 /etc/shadowvpn/server1.conf:
 
@@ -19,8 +19,8 @@ server1
    ifconfig $intf 10.1.0.1 netmask 255.255.255.0
    # ...
 
-server2
--------
+Server 2
+--------
 
 /etc/shadowvpn/server2.conf:
 
