@@ -7,6 +7,8 @@ ShadowVPN is a fast, safe VPN based on libsodium.
 - Getting Started
     * [Tutorial]
     * [中文教程][Chinese Readme]
+- Other Platforms
+    * [Android](https://github.com/clowwindy/ShadowVPNAndroid)
 - Advanced Usage
     * [Configure Via LuCI on OpenWRT](https://github.com/clowwindy/ShadowVPN/wiki/Configure-Via-LuCI-on-OpenWRT)
     * [Configure Via editing system config files](https://github.com/clowwindy/ShadowVPN/wiki/Setup-ShadowVPN-by-editing-system-configuration-files-in-OpenWRT)
