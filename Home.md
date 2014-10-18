@@ -15,6 +15,7 @@ ShadowVPN is a fast, safe VPN based on libsodium.
     * [Using chnroutes](https://github.com/clowwindy/ShadowVPN/wiki/Using-chnroutes)
     * [Starting Multiple Servers on One VPS](https://github.com/clowwindy/ShadowVPN/wiki/Starting-Multiple-Servers-on-One-VPS)
     * [Compared to Shadowsocks and OpenVPN](https://github.com/clowwindy/ShadowVPN/wiki/Compared-to-Shadowsocks-and-OpenVPN)
+    * [Building deb Package](https://github.com/clowwindy/ShadowVPN/wiki/Building-deb-Package)
 
 ### Latest Release
 
