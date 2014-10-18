@@ -4,5 +4,4 @@ Build package from source:
     git submodule update --init
     ./autogen.sh
     dpkg-buildpackage
-    cd ..
-    sudo dpkg -i shadowvpn*.deb
+    sudo dpkg -i ../shadowvpn_xxx.deb
