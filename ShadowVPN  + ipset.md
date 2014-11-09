@@ -2,7 +2,7 @@
 
 IPSET只是用来代替部分路由表。
 
-这假设你已经有了一个ipset 集合， 一般是通过带ipset功能的dns软件，来追加需要翻墙的IP列表。这一部分可以参考许多shadowsocks ss-redir + dnsmasq + ipset 的教程。
+> 这里假设你已经有了一个ipset 集合命名为`gfwlist`， 一般是通过带ipset功能的dns软件，来追加需要翻墙的IP列表。这一部分可以参考许多shadowsocks ss-redir + dnsmasq + ipset 的教程。
 
 添加操作
 -------
