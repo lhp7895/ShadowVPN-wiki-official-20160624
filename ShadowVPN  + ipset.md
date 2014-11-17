@@ -10,6 +10,7 @@ IPSET只是用来代替部分路由表。
 + `iptables -t mangle -A PREROUTING -j fwmark`
 
 > 我这里OpenWRT 已经带了上面两条操作。
+
 + `iptables -t mangle -A OUTPUT -j fwmark` (可选)
 
 + `iptables -t mangle -A fwmark -m set --match-set gfwlist dst -j MARK --set-mark 0xffff`
