@@ -20,7 +20,7 @@ You'll find `shadowvpn.exe` in `src/`.
 Download a [release] and build.
 
 Currently only MinGW compilers are supported. You can compile in Msys or
-cross-compile in Linux or Cygwin with 32-bit or 64-bit MinGW toolchains.
+cross-compile in Cygwin with 32-bit or 64-bit MinGW toolchains.
 
 For example, if using 64-bit Cygwin, install `libtool`, `autoconf`
 and `mingw64-x86_64-gcc-g++` by Cygwin installer. Then Download a [release]
