@@ -3,13 +3,13 @@ To run ShadowVPN, You need to install the TUN/TAP driver first:
 * [For 32-bit Windows]
 * [For 64-bit Windows]
 
-It's recommended to build ShadowVPN on Debian.
+It's recommended to build ShadowVPN on Debian, since it's simple.
 
 ### Build on Debian
 
 Download a [release] and build.
 
-    apt-get install build-essential automake mingw-w64
+    apt-get install build-essential mingw-w64
     ./configure --host=i686-w64-mingw32 --enable-static
     make
 
