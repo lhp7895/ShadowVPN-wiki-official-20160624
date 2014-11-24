@@ -10,7 +10,6 @@ It's recommended to build ShadowVPN on Debian.
 Download a [release] and build.
 
     apt-get install build-essential automake mingw-w64
-    ./autogen.sh
     ./configure --host=i686-w64-mingw32 --enable-static
     make
 
@@ -27,7 +26,6 @@ For example, if using 64-bit Cygwin, install `libtool`, `autoconf`
 and `mingw64-x86_64-gcc-g++` by Cygwin installer. Then Download a [release]
 and build. Build from Cygwin terminal by the following commands:
 
-    ./autogen.sh
     ./configure --host=x86_64-w64-mingw32 --enable-static
     make && make install DESTDIR="$HOME/shadowvpn-build"
 
