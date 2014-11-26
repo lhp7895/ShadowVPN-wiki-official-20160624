@@ -16,6 +16,7 @@ ShadowVPN is inspired by SigmaVPN:
 
 ShadowVPN has several improvements over SigmaVPN:
 - Faster encryption
+- Use multiple UDP sockets
 - User friendly configuration with scripting support
 - Builtin daemon and logging support
 - Lower packet overhead
