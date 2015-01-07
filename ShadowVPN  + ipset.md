@@ -12,9 +12,8 @@ IPSET只是用来代替部分路由表。
 > 我这里OpenWRT 已经带了上面两条操作。
 
 + `iptables -t mangle -A OUTPUT -j fwmark` (可选)
-
-+ `iptables -t mangle -A fwmark -m set --match-set wallips dst -j MARK --set-mark 0xffff`
 + `[ $(ipset list wallips 2>/dev/null| wc -l) -eq 0 ] && { ipset -N wallips iphash; }` 
++ `iptables -t mangle -A fwmark -m set --match-set wallips dst -j MARK --set-mark 0xffff`
 + `echo "99 gfw" >> /etc/iproute2/rt_tables`
 + `ip route add default dev tunX table gfw`
 + `ip rule add fwmark 0xffff table gfw`
