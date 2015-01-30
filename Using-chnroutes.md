@@ -1,4 +1,4 @@
-1. Download [chnroutes script](https://github.com/clowwindy/ShadowVPN/blob/master/samples/chnroutes.sh).
+1. Download [chnroutes script](https://github.com/clowwindy/ShadowVPN/blob/master/tools/chnroutes.sh).
    You may want to replace `pppoe-wan` with your actual WAN interface. For example, `gw 10.0.1.1`.
 
 2. Save it to `/etc/shadowvpn/chnroutes.sh`. Then
