@@ -21,9 +21,9 @@ ipset相关
 + `iptables -t mangle -A OUTPUT -j fwmark` (可选)
 
 + `iptables -t mangle -A fwmark -m set --match-set wallips dst -j MARK --set-mark 0xffff`
-+ `echo "99 gfw" >> /etc/iproute2/rt_tables`
-+ `ip route add default dev tunX table gfw`
++ `echo "99 gfw" >> /etc/iproute2/rt_tables`  (一次性？)
 + `ip rule add fwmark 0xffff table gfw`
++ `ip route add default dev tunX table gfw` 
 
 移除操作
 -------
