@@ -48,3 +48,10 @@ You don't have to set `net` to the same as the server will assign to you.
 ShadowVPN server will do NAT on server side.
 
 **Notice: Keep your user token secret to other users.**
+
+Security
+--------
+
+The data is protected by `password`. It should be kept secret from public.
+
+Each user is authenticated by `user_token`. Each user's user token should be kept secret from other users.
