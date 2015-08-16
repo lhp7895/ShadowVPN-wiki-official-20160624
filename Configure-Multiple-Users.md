@@ -49,6 +49,13 @@ ShadowVPN server will do NAT on server side.
 
 **Notice: Keep your user token secret to other users.**
 
+Compatibility
+-------------
+
+If `user_token` is not set, ShadowVPN will run in traditional protocol and will be backward compatible.
+
+If you set `user_token` on only one side of the client and server, ShadowVPN will not work.
+
 Security Model
 --------------
 
