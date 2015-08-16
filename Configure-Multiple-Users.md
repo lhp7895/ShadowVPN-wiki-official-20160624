@@ -52,6 +52,8 @@ ShadowVPN server will do NAT on server side.
 Security Model
 --------------
 
-The data is protected by `password`. It should be kept secret from public.
+The data is protected by `password`. It should be kept secret from public. All users share the same password.
 
 Each user is authenticated by `user_token`. Each user's user token should be kept secret from other users.
+
+If you really want to use different passwords for different users, you should start multiple ShadowVPN server instances.
