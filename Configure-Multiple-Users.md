@@ -49,8 +49,8 @@ ShadowVPN server will do NAT on server side.
 
 **Notice: Keep your user token secret to other users.**
 
-Security
---------
+Security Model
+--------------
 
 The data is protected by `password`. It should be kept secret from public.
 
